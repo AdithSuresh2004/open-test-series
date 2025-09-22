@@ -1,0 +1,78 @@
+{
+  "full_tests": [
+    {
+      "exam_id": "nimcet_mock1",
+      "exam_name": "NIMCET MCA Mock Test 1",
+      "category": "NIMCET MCA",
+      "subjects": ["Mathematics", "Logical Reasoning", "Computer Awareness"],
+      "topics": ["Quantitative Aptitude", "Logical Puzzles", "Basics of Computers"],
+      "duration_minutes": 120,
+      "total_marks": 400,
+      "total_questions": 100,
+      "exam_strength": "easy",
+      "file": "/exams/full-tests/nimcet/nimcet_mock1.json"
+    },
+    {
+      "exam_id": "nimcet_mock2",
+      "exam_name": "NIMCET MCA Mock Test 2",
+      "category": "NIMCET MCA",
+      "subjects": ["Mathematics", "Logical Reasoning", "Computer Awareness"],
+      "topics": ["Algebra", "Logical Puzzles", "Data Structures"],
+      "duration_minutes": 90,
+      "total_marks": 300,
+      "total_questions": 70,
+      "exam_strength": "medium",
+      "file": "/exams/full-tests/nimcet/nimcet_mock1.json"
+    }
+  ],
+  "topic_tests": [
+    {
+      "exam_id": "algebra_test1",
+      "exam_name": "Algebra Topic Test",
+      "category": "NIMCET MCA",
+      "subject": "Mathematics",
+      "topic": "Algebra",
+      "duration_minutes": 30,
+      "total_marks": 50,
+      "total_questions": 20,
+      "exam_strength": "easy",
+      "file": "/exams/full-tests/nimcet/nimcet_mock1.json"
+    },
+    {
+      "exam_id": "logical_puzzles_test1",
+      "exam_name": "Logical Puzzles Topic Test",
+      "category": "NIMCET MCA",
+      "subject": "Logical Reasoning",
+      "topic": "Logical Puzzles",
+      "duration_minutes": 30,
+      "total_marks": 50,
+      "total_questions": 20,
+      "exam_strength": "medium",
+      "file": "/exams/full-tests/nimcet/nimcet_mock1.json"
+    }
+  ],
+  "subject_tests": [
+    {
+      "exam_id": "mathematics_test1",
+      "exam_name": "Mathematics Subject Test 1",
+      "category": "NIMCET MCA",
+      "subject": "Mathematics",
+      "duration_minutes": 60,
+      "total_marks": 100,
+      "total_questions": 40,
+      "exam_strength": "medium",
+      "file": "/exams/full-tests/nimcet/nimcet_mock1.json"
+    },
+    {
+      "exam_id": "logical_test1",
+      "exam_name": "Logical Reasoning Subject Test 1",
+      "category": "NIMCET MCA",
+      "subject": "Logical Reasoning",
+      "duration_minutes": 45,
+      "total_marks": 50,
+      "total_questions": 25,
+      "exam_strength": "easy",
+      "file": "/exams/full-tests/nimcet/nimcet_mock1.json"
+    }
+  ]
+}

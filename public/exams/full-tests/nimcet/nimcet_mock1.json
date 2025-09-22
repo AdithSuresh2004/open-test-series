@@ -1,0 +1,1347 @@
+{
+  "exam_id": "nimcet_mock1",
+  "exam_name": "NIMCET MCA Entrance Mock Test 1",
+  "duration_minutes": 120,
+  "total_marks": 400,
+  "total_questions": 100,
+  "exam_strength": "medium",
+  "sections": [
+    {
+      "section_id": "A",
+      "section_name": "Mathematics",
+      "instructions": "25 questions, each +4 for correct, -1 for wrong.",
+      "time_limit_minutes": 60,
+      "max_marks": 100,
+      "questions": [
+        {
+          "q_id": "A1",
+          "question_text": "If x + y = 10 and xy = 21, what is x² + y²?",
+          "options": [
+            { "opt_id": "1", "text": "58" },
+            { "opt_id": "2", "text": "79" },
+            { "opt_id": "3", "text": "100" },
+            { "opt_id": "4", "text": "121" }
+
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "A2",
+          "question_text": "The sum of the first 20 natural numbers is:",
+          "options": [
+            { "opt_id": "1", "text": "200" },
+            { "opt_id": "2", "text": "190" },
+            { "opt_id": "3", "text": "210" },
+            { "opt_id": "4", "text": "220" }
+          ],
+          "correct_opt_id": "3",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "A3",
+          "question_text": "The value of sin(60°) is:",
+          "options": [
+            { "opt_id": "1", "text": "$$\\frac{1}{2}$$" },
+            { "opt_id": "2", "text": "$$\\frac{\\sqrt{3}}{2}$$" },
+            { "opt_id": "3", "text": "$$\\frac{1}{\\sqrt{2}}$$ " },
+            { "opt_id": "4", "text": "1" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "A4",
+          "question_text": "Find the derivative of $f(x) = x^3$ with respect to x.",
+          "options": [
+            { "opt_id": "1", "text": "$$x^2$$" },
+            { "opt_id": "2", "text": "$$3x^2$$" },
+            { "opt_id": "3", "text": "$$2x$$" },
+            { "opt_id": "4", "text": "$$3x$$" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "A5",
+          "question_text": "What is the area of a circle with a radius of 7 cm?",
+          "options": [
+            { "opt_id": "1", "text": "154 cm²" },
+            { "opt_id": "2", "text": "49 cm²" },
+            { "opt_id": "3", "text": "22 cm²" },
+            { "opt_id": "4", "text": "14 cm²" }
+          ],
+          "correct_opt_id": "1",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "A6",
+          "question_text": "The probability of drawing a king from a deck of 52 cards is:",
+          "options": [
+            { "opt_id": "1", "text": "$$\\frac{1}{13}$$" },
+            { "opt_id": "2", "text": "$$\\frac{4}{13}$$" },
+            { "opt_id": "3", "text": "$$\\frac{1}{52}$$" },
+            { "opt_id": "4", "text": "$$\\frac{1}{26}$$" }
+          ],
+          "correct_opt_id": "1",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "A7",
+          "question_text": "If A = {1, 2, 3} and B = {2, 3, 4}, what is A \\cup B?",
+          "options": [
+            { "opt_id": "1", "text": "{1, 2, 3, 4}" },
+            { "opt_id": "2", "text": "{2, 3}" },
+            { "opt_id": "3", "text": "{1, 4}" },
+            { "opt_id": "4", "text": "{1, 2, 3}" }
+          ],
+          "correct_opt_id": "1",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "A8",
+          "question_text": "The solution to the equation 2x + 5 = 11 is:",
+          "options": [
+            { "opt_id": "1", "text": "x = 3" },
+            { "opt_id": "2", "text": "x = 4" },
+            { "opt_id": "3", "text": "x = 2" },
+            { "opt_id": "4", "text": "x = 5" }
+          ],
+          "correct_opt_id": "1",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "A9",
+          "question_text": "What is the value of log₁₀(100)?",
+          "options": [
+            { "opt_id": "1", "text": "10" },
+            { "opt_id": "2", "text": "2" },
+            { "opt_id": "3", "text": "1" },
+            { "opt_id": "4", "text": "100" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "A10",
+          "question_text": "Find the integral of $f(x) = 2x$ with respect to x.",
+          "options": [
+            { "opt_id": "1", "text": "$$x^2 + C$$" },
+            { "opt_id": "2", "text": "2" },
+            { "opt_id": "3", "text": "$$2x^2 + C$$" },
+            { "opt_id": "4", "text": "x + C" }
+          ],
+          "correct_opt_id": "1",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "A11",
+          "question_text": "The median of the data set {2, 5, 8, 1, 4} is:",
+          "options": [
+            { "opt_id": "1", "text": "2" },
+            { "opt_id": "2", "text": "4" },
+            { "opt_id": "3", "text": "5" },
+            { "opt_id": "4", "text": "8" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "A12",
+          "question_text": "The angle of elevation of a ladder leaning against a wall is 60° and the foot of the ladder is 4.6 m away from the wall. What is the length of the ladder?",
+          "options": [
+            { "opt_id": "1", "text": "9.2 m" },
+            { "opt_id": "2", "text": "4.6 m" },
+            { "opt_id": "3", "text": "2.3 m" },
+            { "opt_id": "4", "text": "5 m" }
+          ],
+          "correct_opt_id": "1",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "A13",
+          "question_text": "The sum of the angles in a triangle is:",
+          "options": [
+            { "opt_id": "1", "text": "90°" },
+            { "opt_id": "2", "text": "180°" },
+            { "opt_id": "3", "text": "270°" },
+            { "opt_id": "4", "text": "360°" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "A14",
+          "question_text": "The number of subsets of a set with 3 elements is:",
+          "options": [
+            { "opt_id": "1", "text": "3" },
+            { "opt_id": "2", "text": "6" },
+            { "opt_id": "3", "text": "8" },
+            { "opt_id": "4", "text": "9" }
+          ],
+          "correct_opt_id": "3",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "A15",
+          "question_text": "The distance between the points (2, 3) and (5, 7) is:",
+          "options": [
+            { "opt_id": "1", "text": "3" },
+            { "opt_id": "2", "text": "4" },
+            { "opt_id": "3", "text": "5" },
+            { "opt_id": "4", "text": "6" }
+          ],
+          "correct_opt_id": "3",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "A16",
+          "question_text": "The value of 7! is:",
+          "options": [
+            { "opt_id": "1", "text": "5040" },
+            { "opt_id": "2", "text": "720" },
+            { "opt_id": "3", "text": "1440" },
+            { "opt_id": "4", "text": "2520" }
+          ],
+          "correct_opt_id": "1",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "A17",
+          "question_text": "The quadratic equation $x^2 - 4x + 4 = 0$ has:",
+          "options": [
+            { "opt_id": "1", "text": "two distinct real roots" },
+            { "opt_id": "2", "text": "two equal real roots" },
+            { "opt_id": "3", "text": "no real roots" },
+            { "opt_id": "4", "text": "one real root" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "A18",
+          "question_text": "The volume of a sphere with radius 'r' is given by:",
+          "options": [
+            { "opt_id": "1", "text": "$$\\frac{4}{3}\\pi r^3$$" },
+            { "opt_id": "2", "text": "$$\\pi r^2$$" },
+            { "opt_id": "3", "text": "$$2\\pi r$$" },
+            { "opt_id": "4", "text": "$$4\\pi r^2$$" }
+          ],
+          "correct_opt_id": "1",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "A19",
+          "question_text": "Find the 10th term of an arithmetic progression whose first term is 2 and common difference is 3.",
+          "options": [
+            { "opt_id": "1", "text": "27" },
+            { "opt_id": "2", "text": "29" },
+            { "opt_id": "3", "text": "30" },
+            { "opt_id": "4", "text": "32" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "A20",
+          "question_text": "The value of $$\\int_0^1 x^2 dx$$ is:",
+          "options": [
+            { "opt_id": "1", "text": "$$\\frac{1}{3}$$" },
+            { "opt_id": "2", "text": "1" },
+            { "opt_id": "3", "text": "$$\\frac{1}{2}$$" },
+            { "opt_id": "4", "text": "0" }
+          ],
+          "correct_opt_id": "1",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "A21",
+          "question_text": "If a line passes through the origin and has a slope of 2, its equation is:",
+          "options": [
+            { "opt_id": "1", "text": "y = x + 2" },
+            { "opt_id": "2", "text": "y = 2x" },
+            { "opt_id": "3", "text": "y = x - 2" },
+            { "opt_id": "4", "text": "y = -2x" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "A22",
+          "question_text": "The greatest common divisor of 24 and 36 is:",
+          "options": [
+            { "opt_id": "1", "text": "6" },
+            { "opt_id": "2", "text": "12" },
+            { "opt_id": "3", "text": "36" },
+            { "opt_id": "4", "text": "72" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "A23",
+          "question_text": "If $f(x) = x^2$ and $g(x) = x + 1$, what is $(f \\circ g)(x)$?",
+          "options": [
+            { "opt_id": "1", "text": "$$x^2 + 1$$" },
+            { "opt_id": "2", "text": "$$(x+1)^2$$" },
+            { "opt_id": "3", "text": "$$x^2 + x + 1$$" },
+            { "opt_id": "4", "text": "2x + 1" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "A24",
+          "question_text": "In a series, 2, 4, 8, 16, ... the next term is:",
+          "options": [
+            { "opt_id": "1", "text": "20" },
+            { "opt_id": "2", "text": "24" },
+            { "opt_id": "3", "text": "32" },
+            { "opt_id": "4", "text": "40" }
+          ],
+          "correct_opt_id": "3",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "A25",
+          "question_text": "The value of $$\\lim_{x \\to 2} (x^2 + 3)$$ is:",
+          "options": [
+            { "opt_id": "1", "text": "4" },
+            { "opt_id": "2", "text": "7" },
+            { "opt_id": "3", "text": "5" },
+            { "opt_id": "4", "text": "9" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        }
+      ]
+    },
+    {
+      "section_id": "B",
+      "section_name": "Analytical Ability & Logical Reasoning",
+      "instructions": "25 questions, each +4 for correct, -1 for wrong.",
+      "time_limit_minutes": 30,
+      "max_marks": 100,
+      "questions": [
+        {
+          "q_id": "B1",
+          "question_text": "If A is taller than B, B is taller than C, and C is taller than D, who is the tallest?",
+          "options": [
+            { "opt_id": "1", "text": "A" },
+            { "opt_id": "2", "text": "B" },
+            { "opt_id": "3", "text": "C" },
+            { "opt_id": "4", "text": "D" }
+          ],
+          "correct_opt_id": "1",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "B2",
+          "question_text": "Find the odd one out: Apple, Orange, Mango, Potato.",
+          "options": [
+            { "opt_id": "1", "text": "Apple" },
+            { "opt_id": "2", "text": "Orange" },
+            { "opt_id": "3", "text": "Mango" },
+            { "opt_id": "4", "text": "Potato" }
+          ],
+          "correct_opt_id": "4",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "B3",
+          "question_text": "What comes next in the series: 2, 6, 12, 20, 30, ...?",
+          "options": [
+            { "opt_id": "1", "text": "40" },
+            { "opt_id": "2", "text": "42" },
+            { "opt_id": "3", "text": "44" },
+            { "opt_id": "4", "text": "38" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "B4",
+          "question_text": "In a certain code, 'RIVER' is written as 'REVIR'. How is 'OCEAN' written in that code?",
+          "options": [
+            { "opt_id": "1", "text": "NCAEO" },
+            { "opt_id": "2", "text": "NAECO" },
+            { "opt_id": "3", "text": "NAOCE" },
+            { "opt_id": "4", "text": "NACEO" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "B5",
+          "question_text": "If 'C' is coded as 3, and 'F' is coded as 6, what is 'H' coded as?",
+          "options": [
+            { "opt_id": "1", "text": "7" },
+            { "opt_id": "2", "text": "8" },
+            { "opt_id": "3", "text": "9" },
+            { "opt_id": "4", "text": "10" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "B6",
+          "question_text": "Pointing to a man, a woman said, 'He is the son of my father's sister.' How is the man related to the woman?",
+          "options": [
+            { "opt_id": "1", "text": "Brother" },
+            { "opt_id": "2", "text": "Cousin" },
+            { "opt_id": "3", "text": "Uncle" },
+            { "opt_id": "4", "text": "Nephew" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "B7",
+          "question_text": "Find the odd one out: Car, Bus, Train, Scooter.",
+          "options": [
+            { "opt_id": "1", "text": "Car" },
+            { "opt_id": "2", "text": "Bus" },
+            { "opt_id": "3", "text": "Train" },
+            { "opt_id": "4", "text": "Scooter" }
+          ],
+          "correct_opt_id": "3",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "B8",
+          "question_text": "If 'CAT' is written as '3120', how is 'DOG' written?",
+          "options": [
+            { "opt_id": "1", "text": "4157" },
+            { "opt_id": "2", "text": "4158" },
+            { "opt_id": "3", "text": "4168" },
+            { "opt_id": "4", "text": "4147" }
+          ],
+          "correct_opt_id": "1",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "B9",
+          "question_text": "What comes next in the series: 1, 4, 9, 16, 25, ...?",
+          "options": [
+            { "opt_id": "1", "text": "30" },
+            { "opt_id": "2", "text": "36" },
+            { "opt_id": "3", "text": "49" },
+            { "opt_id": "4", "text": "64" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "B10",
+          "question_text": "If 'P' means 'add', 'Q' means 'subtract', 'R' means 'multiply', and 'S' means 'divide', what is 18 R 3 P 6 S 2 Q 5?",
+          "options": [
+            { "opt_id": "1", "text": "50" },
+            { "opt_id": "2", "text": "52" },
+            { "opt_id": "3", "text": "54" },
+            { "opt_id": "4", "text": "55" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "B11",
+          "question_text": "Find the next letter in the series: A, C, E, G, ...",
+          "options": [
+            { "opt_id": "1", "text": "H" },
+            { "opt_id": "2", "text": "I" },
+            { "opt_id": "3", "text": "J" },
+            { "opt_id": "4", "text": "K" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "B12",
+          "question_text": "A clock is 3 minutes slow. If the actual time is 10:00 AM, what time does the clock show?",
+          "options": [
+            { "opt_id": "1", "text": "9:57 AM" },
+            { "opt_id": "2", "text": "10:03 AM" },
+            { "opt_id": "3", "text": "9:50 AM" },
+            { "opt_id": "4", "text": "10:00 AM" }
+          ],
+          "correct_opt_id": "1",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "B13",
+          "question_text": "If 'GOOD' is coded as 'JQQG', how is 'BEST' coded?",
+          "options": [
+            { "opt_id": "1", "text": "EHVW" },
+            { "opt_id": "2", "text": "EFWU" },
+            { "opt_id": "3", "text": "EHVU" },
+            { "opt_id": "4", "text": "EGVU" }
+          ],
+          "correct_opt_id": "3",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "B14",
+          "question_text": "In a row of boys, A is 10th from the left and B is 15th from the right. If there are 5 boys between them, what is the total number of boys in the row?",
+          "options": [
+            { "opt_id": "1", "text": "28" },
+            { "opt_id": "2", "text": "30" },
+            { "opt_id": "3", "text": "32" },
+            { "opt_id": "4", "text": "29" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "B15",
+          "question_text": "Find the odd one out: Square, Circle, Triangle, Rectangle.",
+          "options": [
+            { "opt_id": "1", "text": "Square" },
+            { "opt_id": "2", "text": "Circle" },
+            { "opt_id": "3", "text": "Triangle" },
+            { "opt_id": "4", "text": "Rectangle" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "B16",
+          "question_text": "Statement: Some pens are pencils. All pencils are erasers. Conclusion I: Some pens are erasers. Conclusion II: All erasers are pencils.",
+          "options": [
+            { "opt_id": "1", "text": "Only conclusion I follows" },
+            { "opt_id": "2", "text": "Only conclusion II follows" },
+            { "opt_id": "3", "text": "Both follow" },
+            { "opt_id": "4", "text": "Neither follows" }
+          ],
+          "correct_opt_id": "1",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "B17",
+          "question_text": "What is the missing number in the sequence: 7, 10, 8, 11, 9, 12, ...?",
+          "options": [
+            { "opt_id": "1", "text": "10" },
+            { "opt_id": "2", "text": "13" },
+            { "opt_id": "3", "text": "14" },
+            { "opt_id": "4", "text": "16" }
+          ],
+          "correct_opt_id": "1",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "B18",
+          "question_text": "If 'A' is father of 'B', and 'C' is son of 'A', and 'D' is brother of 'B', how is 'D' related to 'C'?",
+          "options": [
+            { "opt_id": "1", "text": "Brother" },
+            { "opt_id": "2", "text": "Cousin" },
+            { "opt_id": "3", "text": "Uncle" },
+            { "opt_id": "4", "text": "Son" }
+          ],
+          "correct_opt_id": "1",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "B19",
+          "question_text": "In a group of 15 people, 7 read English, 8 read Hindi, and 3 read both. How many read neither?",
+          "options": [
+            { "opt_id": "1", "text": "2" },
+            { "opt_id": "2", "text": "3" },
+            { "opt_id": "3", "text": "4" },
+            { "opt_id": "4", "text": "5" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "B20",
+          "question_text": "If 'HOTEL' is coded as '30', what is 'BORE' coded as?",
+          "options": [
+            { "opt_id": "1", "text": "15" },
+            { "opt_id": "2", "text": "18" },
+            { "opt_id": "3", "text": "20" },
+            { "opt_id": "4", "text": "22" }
+          ],
+          "correct_opt_id": "1",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "B21",
+          "question_text": "What is the angle between the hour hand and the minute hand of a clock at 3:00 PM?",
+          "options": [
+            { "opt_id": "1", "text": "0°" },
+            { "opt_id": "2", "text": "90°" },
+            { "opt_id": "3", "text": "180°" },
+            { "opt_id": "4", "text": "45°" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "B22",
+          "question_text": "A man walks 5 km East, then 12 km North. What is the shortest distance from his starting point?",
+          "options": [
+            { "opt_id": "1", "text": "13 km" },
+            { "opt_id": "2", "text": "17 km" },
+            { "opt_id": "3", "text": "7 km" },
+            { "opt_id": "4", "text": "10 km" }
+          ],
+          "correct_opt_id": "1",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "B23",
+          "question_text": "Find the odd one out: Lion, Tiger, Elephant, Fox.",
+          "options": [
+            { "opt_id": "1", "text": "Lion" },
+            { "opt_id": "2", "text": "Tiger" },
+            { "opt_id": "3", "text": "Elephant" },
+            { "opt_id": "4", "text": "Fox" }
+          ],
+          "correct_opt_id": "3",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "B24",
+          "question_text": "If 'WATER' is coded as '2311920518', how is 'FIRE' coded?",
+          "options": [
+            { "opt_id": "1", "text": "69185" },
+            { "opt_id": "2", "text": "691851" },
+            { "opt_id": "3", "text": "691851" },
+            { "opt_id": "4", "text": "69185" }
+          ],
+          "correct_opt_id": "1",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "B25",
+          "question_text": "Find the missing number: 1, 8, 27, ?, 125.",
+          "options": [
+            { "opt_id": "1", "text": "36" },
+            { "opt_id": "2", "text": "49" },
+            { "opt_id": "3", "text": "64" },
+            { "opt_id": "4", "text": "81" }
+          ],
+          "correct_opt_id": "3",
+          "marks": 4,
+          "negative_marks": -1
+        }
+      ]
+    },
+    {
+      "section_id": "C",
+      "section_name": "Computer Awareness",
+      "instructions": "25 questions, each +4 for correct, -1 for wrong.",
+      "time_limit_minutes": 15,
+      "max_marks": 100,
+      "questions": [
+        {
+          "q_id": "C1",
+          "question_text": "Which of these is not an operating system?",
+          "options": [
+            { "opt_id": "1", "text": "Windows" },
+            { "opt_id": "2", "text": "Linux" },
+            { "opt_id": "3", "text": "Oracle" },
+            { "opt_id": "4", "text": "macOS" }
+          ],
+          "correct_opt_id": "3",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "C2",
+          "question_text": "Which device is used for input?",
+          "options": [
+            { "opt_id": "1", "text": "Monitor" },
+            { "opt_id": "2", "text": "Keyboard" },
+            { "opt_id": "3", "text": "Printer" },
+            { "opt_id": "4", "text": "Speaker" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "C3",
+          "question_text": "What does CPU stand for?",
+          "options": [
+            { "opt_id": "1", "text": "Central Process Unit" },
+            { "opt_id": "2", "text": "Central Processing Unit" },
+            { "opt_id": "3", "text": "Computer Personal Unit" },
+            { "opt_id": "4", "text": "Control Processing Unit" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "C4",
+          "question_text": "Which of these is a programming language?",
+          "options": [
+            { "opt_id": "1", "text": "HTML" },
+            { "opt_id": "2", "text": "CSS" },
+            { "opt_id": "3", "text": "Java" },
+            { "opt_id": "4", "text": "XML" }
+          ],
+          "correct_opt_id": "3",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "C5",
+          "question_text": "What is the full form of RAM?",
+          "options": [
+            { "opt_id": "1", "text": "Read Access Memory" },
+            { "opt_id": "2", "text": "Random Access Memory" },
+            { "opt_id": "3", "text": "Remote Access Memory" },
+            { "opt_id": "4", "text": "Run Access Memory" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "C6",
+          "question_text": "Which is the smallest unit of data in a computer?",
+          "options": [
+            { "opt_id": "1", "text": "Byte" },
+            { "opt_id": "2", "text": "Kilobyte" },
+            { "opt_id": "3", "text": "Bit" },
+            { "opt_id": "4", "text": "Megabyte" }
+          ],
+          "correct_opt_id": "3",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "C7",
+          "question_text": "What is the main circuit board of a computer called?",
+          "options": [
+            { "opt_id": "1", "text": "Hard Disk" },
+            { "opt_id": "2", "text": "RAM" },
+            { "opt_id": "3", "text": "Motherboard" },
+            { "opt_id": "4", "text": "Processor" }
+          ],
+          "correct_opt_id": "3",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "C8",
+          "question_text": "Which of these is a web browser?",
+          "options": [
+            { "opt_id": "1", "text": "Microsoft Word" },
+            { "opt_id": "2", "text": "Adobe Photoshop" },
+            { "opt_id": "3", "text": "Google Chrome" },
+            { "opt_id": "4", "text": "VLC Media Player" }
+          ],
+          "correct_opt_id": "3",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "C9",
+          "question_text": "What does HTTP stand for?",
+          "options": [
+            { "opt_id": "1", "text": "HyperText Transfer Protocol" },
+            { "opt_id": "2", "text": "HyperTransfer Text Protocol" },
+            { "opt_id": "3", "text": "High Tech Transfer Protocol" },
+            { "opt_id": "4", "text": "HyperText Test Protocol" }
+          ],
+          "correct_opt_id": "1",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "C10",
+          "question_text": "Which of the following is not a storage device?",
+          "options": [
+            { "opt_id": "1", "text": "Hard Disk Drive" },
+            { "opt_id": "2", "text": "CD-ROM" },
+            { "opt_id": "3", "text": "Keyboard" },
+            { "opt_id": "4", "text": "Flash Drive" }
+          ],
+          "correct_opt_id": "3",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "C11",
+          "question_text": "What is a compiler?",
+          "options": [
+            { "opt_id": "1", "text": "A device that compiles code" },
+            { "opt_id": "2", "text": "A program that translates source code into machine code" },
+            { "opt_id": "3", "text": "A hardware component" },
+            { "opt_id": "4", "text": "A type of operating system" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "C12",
+          "question_text": "Which of these is an example of an antivirus software?",
+          "options": [
+            { "opt_id": "1", "text": "Microsoft Excel" },
+            { "opt_id": "2", "text": "Mozilla Firefox" },
+            { "opt_id": "3", "text": "Norton" },
+            { "opt_id": "4", "text": "Google Drive" }
+          ],
+          "correct_opt_id": "3",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "C13",
+          "question_text": "What is the full form of URL?",
+          "options": [
+            { "opt_id": "1", "text": "Universal Resource Location" },
+            { "opt_id": "2", "text": "Uniform Resource Locator" },
+            { "opt_id": "3", "text": "Uniform Resource Link" },
+            { "opt_id": "4", "text": "Universal Resource Link" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "C14",
+          "question_text": "Which company developed the Android operating system?",
+          "options": [
+            { "opt_id": "1", "text": "Apple" },
+            { "opt_id": "2", "text": "Microsoft" },
+            { "opt_id": "3", "text": "Google" },
+            { "opt_id": "4", "text": "Samsung" }
+          ],
+          "correct_opt_id": "3",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "C15",
+          "question_text": "What is the shortcut key for 'copy'?",
+          "options": [
+            { "opt_id": "1", "text": "Ctrl + X" },
+            { "opt_id": "2", "text": "Ctrl + C" },
+            { "opt_id": "3", "text": "Ctrl + V" },
+            { "opt_id": "4", "text": "Ctrl + A" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "C16",
+          "question_text": "Which of the following is not a networking device?",
+          "options": [
+            { "opt_id": "1", "text": "Router" },
+            { "opt_id": "2", "text": "Switch" },
+            { "opt_id": "3", "text": "Monitor" },
+            { "opt_id": "4", "text": "Modem" }
+          ],
+          "correct_opt_id": "3",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "C17",
+          "question_text": "What is a computer virus?",
+          "options": [
+            { "opt_id": "1", "text": "A type of hardware" },
+            { "opt_id": "2", "text": "A program that replicates itself and attaches to other programs" },
+            { "opt_id": "3", "text": "A type of operating system" },
+            { "opt_id": "4", "text": "A component of the CPU" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "C18",
+          "question_text": "What does a firewall do?",
+          "options": [
+            { "opt_id": "1", "text": "It protects the computer from fire" },
+            { "opt_id": "2", "text": "It is a network security system" },
+            { "opt_id": "3", "text": "It increases the speed of the internet" },
+            { "opt_id": "4", "text": "It is a type of programming language" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "C19",
+          "question_text": "What is the purpose of a modem?",
+          "options": [
+            { "opt_id": "1", "text": "To process data" },
+            { "opt_id": "2", "text": "To convert digital signals to analog and vice versa" },
+            { "opt_id": "3", "text": "To print documents" },
+            { "opt_id": "4", "text": "To store data" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "C20",
+          "question_text": "Which of the following is an example of system software?",
+          "options": [
+            { "opt_id": "1", "text": "Microsoft Word" },
+            { "opt_id": "2", "text": "Operating System" },
+            { "opt_id": "3", "text": "Adobe Photoshop" },
+            { "opt_id": "4", "text": "Google Chrome" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "C21",
+          "question_text": "What is the purpose of a cache memory?",
+          "options": [
+            { "opt_id": "1", "text": "To store permanent data" },
+            { "opt_id": "2", "text": "To store frequently accessed data for faster access" },
+            { "opt_id": "3", "text": "To store data for a long time" },
+            { "opt_id": "4", "text": "To store data only for a short time" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "C22",
+          "question_text": "Which generation of computers used vacuum tubes?",
+          "options": [
+            { "opt_id": "1", "text": "First Generation" },
+            { "opt_id": "2", "text": "Second Generation" },
+            { "opt_id": "3", "text": "Third Generation" },
+            { "opt_id": "4", "text": "Fourth Generation" }
+          ],
+          "correct_opt_id": "1",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "C23",
+          "question_text": "What is the binary equivalent of the decimal number 10?",
+          "options": [
+            { "opt_id": "1", "text": "1001" },
+            { "opt_id": "2", "text": "1010" },
+            { "opt_id": "3", "text": "1100" },
+            { "opt_id": "4", "text": "1011" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "C24",
+          "question_text": "Which protocol is used for sending email?",
+          "options": [
+            { "opt_id": "1", "text": "HTTP" },
+            { "opt_id": "2", "text": "FTP" },
+            { "opt_id": "3", "text": "SMTP" },
+            { "opt_id": "4", "text": "TCP/IP" }
+          ],
+          "correct_opt_id": "3",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "C25",
+          "question_text": "What is the purpose of an IP address?",
+          "options": [
+            { "opt_id": "1", "text": "To identify a physical location" },
+            { "opt_id": "2", "text": "To identify a device on a network" },
+            { "opt_id": "3", "text": "To create a website" },
+            { "opt_id": "4", "text": "To store files" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        }
+      ]
+    },
+    {
+      "section_id": "D",
+      "section_name": "General English",
+      "instructions": "25 questions, each +4 for correct, -1 for wrong.",
+      "time_limit_minutes": 15,
+      "max_marks": 100,
+      "questions": [
+        {
+          "q_id": "D1",
+          "question_text": "Choose the correct synonym of 'Abundant'.",
+          "options": [
+            { "opt_id": "1", "text": "Rare" },
+            { "opt_id": "2", "text": "Plentiful" },
+            { "opt_id": "3", "text": "Scarce" },
+            { "opt_id": "4", "text": "Limited" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "D2",
+          "question_text": "Fill in the blank: She is _____ honest girl.",
+          "options": [
+            { "opt_id": "1", "text": "a" },
+            { "opt_id": "2", "text": "an" },
+            { "opt_id": "3", "text": "the" },
+            { "opt_id": "4", "text": "no article" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "D3",
+          "question_text": "Choose the correct antonym of 'Transparent'.",
+          "options": [
+            { "opt_id": "1", "text": "Clear" },
+            { "opt_id": "2", "text": "Opaque" },
+            { "opt_id": "3", "text": "Shiny" },
+            { "opt_id": "4", "text": "Brittle" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "D4",
+          "question_text": "Identify the part of speech of the word 'quickly' in the sentence: 'He ran quickly.'",
+          "options": [
+            { "opt_id": "1", "text": "Adjective" },
+            { "opt_id": "2", "text": "Adverb" },
+            { "opt_id": "3", "text": "Noun" },
+            { "opt_id": "4", "text": "Verb" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "D5",
+          "question_text": "Choose the correct spelling:",
+          "options": [
+            { "opt_id": "1", "text": "Seperate" },
+            { "opt_id": "2", "text": "Separate" },
+            { "opt_id": "3", "text": "Saparate" },
+            { "opt_id": "4", "text": "Seperete" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "D6",
+          "question_text": "Fill in the blank: The team is confident _____ winning the match.",
+          "options": [
+            { "opt_id": "1", "text": "at" },
+            { "opt_id": "2", "text": "on" },
+            { "opt_id": "3", "text": "in" },
+            { "opt_id": "4", "text": "of" }
+          ],
+          "correct_opt_id": "4",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "D7",
+          "question_text": "What is the passive voice of the sentence: 'She writes a letter.'?",
+          "options": [
+            { "opt_id": "1", "text": "A letter is written by her." },
+            { "opt_id": "2", "text": "A letter was written by her." },
+            { "opt_id": "3", "text": "She has written a letter." },
+            { "opt_id": "4", "text": "A letter is being written by her." }
+          ],
+          "correct_opt_id": "1",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "D8",
+          "question_text": "Choose the word with the correct meaning: 'Ephemeral'.",
+          "options": [
+            { "opt_id": "1", "text": "Long-lasting" },
+            { "opt_id": "2", "text": "Short-lived" },
+            { "opt_id": "3", "text": "Permanent" },
+            { "opt_id": "4", "text": "Beautiful" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "D9",
+          "question_text": "What is the plural form of 'child'?",
+          "options": [
+            { "opt_id": "1", "text": "Childs" },
+            { "opt_id": "2", "text": "Children" },
+            { "opt_id": "3", "text": "Childen" },
+            { "opt_id": "4", "text": "Child's" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "D10",
+          "question_text": "Fill in the blank: I saw _____ one-eyed man.",
+          "options": [
+            { "opt_id": "1", "text": "a" },
+            { "opt_id": "2", "text": "an" },
+            { "opt_id": "3", "text": "the" },
+            { "opt_id": "4", "text": "no article" }
+          ],
+          "correct_opt_id": "1",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "D11",
+          "question_text": "Choose the correct preposition: The book is _____ the table.",
+          "options": [
+            { "opt_id": "1", "text": "in" },
+            { "opt_id": "2", "text": "at" },
+            { "opt_id": "3", "text": "on" },
+            { "opt_id": "4", "text": "with" }
+          ],
+          "correct_opt_id": "3",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "D12",
+          "question_text": "Choose the correct antonym of 'Polite'.",
+          "options": [
+            { "opt_id": "1", "text": "Kind" },
+            { "opt_id": "2", "text": "Rude" },
+            { "opt_id": "3", "text": "Gentle" },
+            { "opt_id": "4", "text": "Humorous" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "D13",
+          "question_text": "What is the noun form of the verb 'decide'?",
+          "options": [
+            { "opt_id": "1", "text": "Deciding" },
+            { "opt_id": "2", "text": "Decided" },
+            { "opt_id": "3", "text": "Decision" },
+            { "opt_id": "4", "text": "Decisive" }
+          ],
+          "correct_opt_id": "3",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "D14",
+          "question_text": "Fill in the blank: The sun _____ in the east.",
+          "options": [
+            { "opt_id": "1", "text": "rises" },
+            { "opt_id": "2", "text": "rose" },
+            { "opt_id": "3", "text": "is rising" },
+            { "opt_id": "4", "text": "rising" }
+          ],
+          "correct_opt_id": "1",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "D15",
+          "question_text": "Choose the correct spelling:",
+          "options": [
+            { "opt_id": "1", "text": "Occasion" },
+            { "opt_id": "2", "text": "Ocasion" },
+            { "opt_id": "3", "text": "Occassion" },
+            { "opt_id": "4", "text": "Occassion" }
+          ],
+          "correct_opt_id": "1",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "D16",
+          "question_text": "What is the meaning of the idiom 'a piece of cake'?",
+          "options": [
+            { "opt_id": "1", "text": "Something very easy" },
+            { "opt_id": "2", "text": "A delicious dessert" },
+            { "opt_id": "3", "text": "Something very difficult" },
+            { "opt_id": "4", "text": "A sweet gesture" }
+          ],
+          "correct_opt_id": "1",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "D17",
+          "question_text": "Fill in the blank: The teacher, along with the students, _____ going on a field trip.",
+          "options": [
+            { "opt_id": "1", "text": "are" },
+            { "opt_id": "2", "text": "is" },
+            { "opt_id": "3", "text": "were" },
+            { "opt_id": "4", "text": "will be" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "D18",
+          "question_text": "Choose the word with the correct meaning: 'Sordid'.",
+          "options": [
+            { "opt_id": "1", "text": "Clean and tidy" },
+            { "opt_id": "2", "text": "Morally corrupt or dirty" },
+            { "opt_id": "3", "text": "Sweet and pleasant" },
+            { "opt_id": "4", "text": "Shining and bright" }
+          ],
+          "correct_opt_id": "2",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "D19",
+          "question_text": "Fill in the blank with the correct form of the verb: He _____ the book yesterday.",
+          "options": [
+            { "opt_id": "1", "text": "read" },
+            { "opt_id": "2", "text": "reads" },
+            { "opt_id": "3", "text": "is reading" },
+            { "opt_id": "4", "text": "has read" }
+          ],
+          "correct_opt_id": "1",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "D20",
+          "question_text": "Choose the correct synonym of 'Meticulous'.",
+          "options": [
+            { "opt_id": "1", "text": "Careless" },
+            { "opt_id": "2", "text": "Lazy" },
+            { "opt_id": "3", "text": "Careful and precise" },
+            { "opt_id": "4", "text": "Fast" }
+          ],
+          "correct_opt_id": "3",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "D21",
+          "question_text": "What is the superlative form of 'good'?",
+          "options": [
+            { "opt_id": "1", "text": "better" },
+            { "opt_id": "2", "text": "gooder" },
+            { "opt_id": "3", "text": "best" },
+            { "opt_id": "4", "text": "most good" }
+          ],
+          "correct_opt_id": "3",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "D22",
+          "question_text": "Choose the correct spelling:",
+          "options": [
+            { "opt_id": "1", "text": "Accommodate" },
+            { "opt_id": "2", "text": "Acomodate" },
+            { "opt_id": "3", "text": "Accommodatte" },
+            { "opt_id": "4", "text": "Acomodatte" }
+          ],
+          "correct_opt_id": "1",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "D23",
+          "question_text": "Identify the type of sentence: 'What a beautiful day!'",
+          "options": [
+            { "opt_id": "1", "text": "Declarative" },
+            { "opt_id": "2", "text": "Interrogative" },
+            { "opt_id": "3", "text": "Imperative" },
+            { "opt_id": "4", "text": "Exclamatory" }
+          ],
+          "correct_opt_id": "4",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "D24",
+          "question_text": "Choose the word with the correct meaning: 'Candid'.",
+          "options": [
+            { "opt_id": "1", "text": "Secretive" },
+            { "opt_id": "2", "text": "Dishonest" },
+            { "opt_id": "3", "text": "Frank and honest" },
+            { "opt_id": "4", "text": "Unclear" }
+          ],
+          "correct_opt_id": "3",
+          "marks": 4,
+          "negative_marks": -1
+        },
+        {
+          "q_id": "D25",
+          "question_text": "Find the correctly punctuated sentence.",
+          "options": [
+            { "opt_id": "1", "text": "He asked, 'Where are you going?'" },
+            { "opt_id": "2", "text": "He asked 'Where are you going?'" },
+            { "opt_id": "3", "text": "He asked, Where are you going?" },
+            { "opt_id": "4", "text": "He asked, Where are you going." }
+          ],
+          "correct_opt_id": "1",
+          "marks": 4,
+          "negative_marks": -1
+        }
+      ]
+    }
+  ]
+}
