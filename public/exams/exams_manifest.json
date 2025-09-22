@@ -9,7 +9,7 @@
       "duration_minutes": 120,
       "total_marks": 400,
       "total_questions": 100,
-      "exam_strength": "easy",
+      "exam_strength": "Easy",
       "file": "/exams/full-tests/nimcet/nimcet_mock1.json"
     },
     {
@@ -21,8 +21,8 @@
       "duration_minutes": 90,
       "total_marks": 300,
       "total_questions": 70,
-      "exam_strength": "medium",
-      "file": "/exams/full-tests/nimcet/nimcet_mock1.json"
+      "exam_strength": "Medium",
+      "file": "/exams/full-tests/nimcet/nimcet_mock2.json"
     }
   ],
   "topic_tests": [
@@ -35,8 +35,8 @@
       "duration_minutes": 30,
       "total_marks": 50,
       "total_questions": 20,
-      "exam_strength": "easy",
-      "file": "/exams/full-tests/nimcet/nimcet_mock1.json"
+      "exam_strength": "Easy",
+      "file": "/exams/topic-tests/nimcet/algebra_test1.json"
     },
     {
       "exam_id": "logical_puzzles_test1",
@@ -47,8 +47,8 @@
       "duration_minutes": 30,
       "total_marks": 50,
       "total_questions": 20,
-      "exam_strength": "medium",
-      "file": "/exams/full-tests/nimcet/nimcet_mock1.json"
+      "exam_strength": "Medium",
+      "file": "/exams/topic-tests/nimcet/logical_puzzles_test1.json"
     }
   ],
   "subject_tests": [
@@ -60,8 +60,8 @@
       "duration_minutes": 60,
       "total_marks": 100,
       "total_questions": 40,
-      "exam_strength": "medium",
-      "file": "/exams/full-tests/nimcet/nimcet_mock1.json"
+      "exam_strength": "Medium",
+      "file": "/exams/subject-tests/mathematics_test1.json"
     },
     {
       "exam_id": "logical_test1",
@@ -71,8 +71,8 @@
       "duration_minutes": 45,
       "total_marks": 50,
       "total_questions": 25,
-      "exam_strength": "easy",
-      "file": "/exams/full-tests/nimcet/nimcet_mock1.json"
+      "exam_strength": "Easy",
+      "file": "/exams/subject-tests/logical_test1.json"
     }
   ]
 }

@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useMemo, useState } from "react";
 
-const ThemeContext = createContext({ theme: "light", toggleTheme: () => {} });
+const ThemeContext = createContext({ theme: "light", setTheme: () => {} });
 
 export function ThemeProvider({ children }) {
   const getPreferred = () => {

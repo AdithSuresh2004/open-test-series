@@ -13,7 +13,6 @@ export default function Navbar({ toggleSidebar = () => {} }) {
                    dark:text-gray-200 dark:hover:text-white"
         aria-label="Open menu"
         aria-controls="mobile-sidebar"
-        aria-expanded={undefined}
       >
         <RxHamburgerMenu className="w-6 h-6" />
       </button>

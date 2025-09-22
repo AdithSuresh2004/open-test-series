@@ -45,7 +45,7 @@ export default function QuestionNavigator({
 
     if (isCurrent) return "bg-blue-600 text-white shadow";
     if (isMarked)
-      return "bg-purple-100 text-purple-800 dark:bg-purple-800 dark:text-purple-200";
+      return "bg-purple-200 text-purple-800 dark:bg-purple-800 dark:text-purple-200";
     if (isAnswered)
       return "bg-green-100 text-green-800 dark:bg-green-800 dark:text-green-200";
     return "bg-gray-200 text-gray-700 dark:bg-gray-700 dark:text-gray-300";
