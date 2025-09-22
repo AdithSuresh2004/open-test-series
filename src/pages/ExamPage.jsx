@@ -60,15 +60,15 @@ export default function ExamPage() {
   }
 
   return (
-    <div className="h-screen flex flex-col bg-gray-50">
+    <div className="h-screen flex flex-col bg-gray-50 dark:bg-gray-900">
       <ExamHeader
         exam={exam}
         timeRemaining={timeRemaining}
         onBack={() => setShowExitModal(true)}
       />
 
-      <div className="flex flex-1 overflow-hidden border-t">
-        <div className="flex-1 bg-white border-r p-6 overflow-y-auto">
+      <div className="flex flex-1 overflow-hidden border-t dark:border-gray-700">
+        <div className="flex-1 bg-white border-r overflow-y-auto dark:bg-gray-800 dark:border-gray-700">
           {currentQuestionData && (
             <QuestionCard
               question={currentQuestionData}
@@ -83,7 +83,7 @@ export default function ExamPage() {
           )}
         </div>
 
-        <div className="w-64 bg-white overflow-y-auto">
+        <div className="w-64 bg-white overflow-y-auto dark:bg-gray-800">
           <QuestionNavigator
             sections={exam.sections}
             currentSection={currentSection}
@@ -96,7 +96,7 @@ export default function ExamPage() {
         </div>
       </div>
 
-      <div className="bg-white border-t">
+      <div className="bg-white border-t dark:bg-gray-800 dark:border-gray-700">
         <ExamNavigation
           canGoPrev={currentSection > 0 || currentQuestion > 0}
           canGoNext={

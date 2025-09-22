@@ -1,11 +1,6 @@
 import React from "react";
-import {
-  FaClock,
-  FaStar,
-  FaShieldAlt,
-  FaExpandArrowsAlt,
-  FaArrowLeft,
-} from "react-icons/fa";
+import { FaExpandArrowsAlt, FaArrowLeft } from "react-icons/fa";
+import ThemeToggle from "../ui/ThemeToggle";
 
 export default function ExamHeader({ exam, timeRemaining, onBack }) {
   const formatTime = (seconds) => {
@@ -36,35 +31,39 @@ export default function ExamHeader({ exam, timeRemaining, onBack }) {
   };
 
   return (
-    <div className="bg-white shadow-sm border-b p-3">
+    <div className="bg-gray-50 dark:bg-gray-900 shadow-sm border-b border-gray-200 dark:border-gray-700 p-3">
       <div className="flex flex-col md:flex-row md:items-center md:justify-between">
+        {/* Exam Info */}
         <div className="flex-1">
-          <h1 className="text-2xl font-bold text-gray-900">{exam.exam_name}</h1>
-          <div className="flex flex-wrap gap-4 mt-2 text-sm text-gray-600 items-center">
-            <div className="flex items-center gap-1">
-              <span>{exam.duration_minutes} mins</span>
-            </div>
-            <div className="flex items-center gap-1">
-              <span>{exam.total_marks} Marks</span>
-            </div>
-            <div className="flex items-center gap-1">
-              <span className="capitalize">{exam.exam_strength}</span>
-            </div>
+          <h1 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
+            {exam.exam_name}
+          </h1>
+          <div className="flex flex-wrap gap-4 mt-2 text-sm text-gray-700 dark:text-gray-400 items-center">
+            <span>{exam.duration_minutes} mins</span>
+            <span>{exam.total_marks} Marks</span>
+            <span className="capitalize">{exam.exam_strength}</span>
           </div>
         </div>
 
-        <div className="flex items-center gap-3">
-          <p>Time:</p>
+        {/* Timer + Actions */}
+        <div className="flex items-center gap-3 mt-3 md:mt-0 text-gray-800 dark:text-gray-200">
+          <p className="font-medium">Time:</p>
           <div className={`text-lg font-mono font-bold ${getTimeColor()}`}>
             {formatTime(timeRemaining)}
           </div>
           <button
             onClick={toggleFullscreen}
-            className="p-2 hover:bg-gray-100 rounded"
+            className="p-2 rounded-md border cursor-pointer border-gray-200 hover:bg-gray-50 text-gray-700
+                 dark:border-gray-700 dark:hover:bg-gray-700 dark:text-gray-200"
           >
             <FaExpandArrowsAlt className="h-4 w-4" />
           </button>
-          <button onClick={onBack} className="p-2 hover:bg-gray-100 rounded">
+          <ThemeToggle />
+          <button
+            onClick={onBack}
+            className="p-2 rounded-md border cursor-pointer border-gray-200 hover:bg-gray-50 text-gray-700
+                 dark:border-gray-700 dark:hover:bg-gray-700 dark:text-gray-200"
+          >
             <FaArrowLeft className="h-4 w-4" />
           </button>
         </div>

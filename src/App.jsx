@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./components/layout/Layout";
-import HomePage from "./pages/HomePage";
+import DashboardPage from "./pages/DashboardPage";
+import ExamSelectionPage from "./pages/ExamSelectionPage";
 import ExamPage from "./pages/ExamPage";
 import ErrorPage from "./pages/ErrorPage";
 
@@ -10,9 +11,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route path="*" element={<ErrorPage />} />
-          <Route index element={<HomePage />} />
+          <Route index element={<DashboardPage />} />
+          <Route path="/exams" element={<ExamSelectionPage />} />
         </Route>
-        <Route path="exams/:examId" element={<ExamPage />} />
+        <Route path="exam/:examId" element={<ExamPage />} />
       </Routes>
     </Router>
   );

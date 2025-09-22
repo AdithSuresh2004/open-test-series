@@ -1,5 +1,50 @@
 @import "tailwindcss";
 
-html, body, #root {
+@custom-variant dark (&:where(.dark, .dark *));
+
+html {
   height: 100%;
+  color-scheme: light dark;
+}
+
+body {
+  height: 100%;
+  scrollbar-gutter: stable;
+}
+
+#root {
+  height: 100%;
+  min-height: 100vh;
+}
+
+@layer base {
+  body {
+    @apply bg-gray-100 text-gray-900 dark:bg-gray-900 dark:text-gray-100;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    @apply bg-gray-200 dark:bg-gray-800;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gray-400 dark:bg-gray-600 rounded-full;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-500 dark:bg-gray-500;
+  }
+  
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: theme('colors.gray.400') theme('colors.gray.200');
+  }
+  
+  .dark * {
+    scrollbar-color: theme('colors.gray.600') theme('colors.gray.800');
+  }
 }

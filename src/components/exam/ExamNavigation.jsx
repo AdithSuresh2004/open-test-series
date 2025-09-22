@@ -14,8 +14,8 @@ export default function ExamNavigation({
   onSaveAndNext,
 }) {
   return (
-    <div className="bg-white rounded-lg shadow-lg border border-gray-200 p-6">
-      <div className="flex justify-between items-center">
+    <div className="bg-gray-50 dark:bg-gray-900 border-t border-gray-300 dark:border-gray-700 p-6">
+      <div className="flex flex-col md:flex-row justify-between items-center gap-4 md:gap-0">
         {/* Previous Button */}
         <button
           onClick={onPrev}
@@ -24,8 +24,8 @@ export default function ExamNavigation({
             px-6 py-3 rounded-lg font-medium transition-all duration-200 flex items-center gap-2
             ${
               canGoPrev
-                ? "bg-blue-600 hover:bg-blue-700 text-white shadow-md border border-blue-600"
-                : "bg-gray-300 text-gray-500 cursor-not-allowed border border-gray-300"
+                ? "bg-blue-600 hover:bg-blue-700 cursor-pointer text-white shadow-md border border-blue-600"
+                : "bg-gray-300 text-gray-400 cursor-not-allowed border border-gray-300 dark:bg-gray-700 dark:text-gray-400 dark:border-gray-700"
             }
           `}
         >
@@ -39,7 +39,7 @@ export default function ExamNavigation({
             <>
               <button
                 onClick={onMarkForReview}
-                className="bg-purple-600 hover:bg-purple-700 text-white px-5 py-3 rounded-lg font-medium transition-all duration-200 border border-purple-600 flex items-center gap-2 shadow-md hover:shadow-lg"
+                className="bg-purple-500 hover:bg-purple-600 cursor-pointer text-white px-5 py-3 rounded-lg font-medium transition-all duration-200 border border-purple-500 dark:bg-purple-600 dark:border-purple-600 flex items-center gap-2 shadow-md hover:shadow-lg"
               >
                 <IoFlag className="w-4 h-4" />
                 Mark for Review & Next
@@ -47,7 +47,7 @@ export default function ExamNavigation({
 
               <button
                 onClick={onSaveAndNext}
-                className="bg-green-600 hover:bg-green-700 text-white px-5 py-3 rounded-lg font-medium transition-all duration-200 shadow-md hover:shadow-lg border border-green-600 flex items-center gap-2"
+                className="bg-green-500 hover:bg-green-600 cursor-pointer text-white px-5 py-3 rounded-lg font-medium transition-all duration-200 shadow-md hover:shadow-lg border border-green-500 dark:bg-green-600 dark:border-green-600 flex items-center gap-2"
               >
                 <IoSave className="w-4 h-4" />
                 Save & Next
@@ -57,10 +57,10 @@ export default function ExamNavigation({
         </div>
 
         {/* Submit Exam Button */}
-        <div className="ml-6">
+        <div>
           <button
             onClick={onSubmit}
-            className="bg-red-600 hover:bg-red-700 text-white px-7 py-3 rounded-lg font-semibold transition-all duration-200 shadow-md hover:shadow-lg border border-red-600 flex items-center gap-2"
+            className="bg-red-500 hover:bg-red-600 text-white cursor-pointer px-7 py-3 rounded-lg font-semibold transition-all duration-200 shadow-md hover:shadow-lg border border-red-500 dark:bg-red-600 dark:border-red-600 flex items-center gap-2"
           >
             <IoCheckmarkDone className="w-5 h-5" />
             Submit Exam
