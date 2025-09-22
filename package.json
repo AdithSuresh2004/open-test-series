@@ -1,13 +1,14 @@
 {
-  "name": "@adithsuresh2004/open-test-series",
+  "name": "open-test-series",
   "version": "0.0.1",
-  "private": false,
+  "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "echo \"No tests configured\" && exit 0"
+    "test": "echo \"No tests configured\" && exit 0",
+    "deploy": "vite build"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.13",
@@ -29,7 +30,5 @@
     "globals": "^16.4.0",
     "vite": "^7.1.6"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  }
+  "homepage": "https://adithsuresh2004.github.io/open-test-series/"
 }
